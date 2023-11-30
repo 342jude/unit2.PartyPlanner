@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #parties-list {
+    margin: 20px;
+  }
+  
+  .party {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .party h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .party p {
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  #add-party-form {
+    margin: 20px;
+  }
+  
+  #add-party-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #add-party-form input,
+  #add-party-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
