@@ -4,7 +4,7 @@ const addPartyForm = document.getElementById("add-party-form");
 async function fetchParties() {
   try {
     const response = await fetch(
-      "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/events"
+      "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2310-FSA-ET-WEB-PT-SF/events"
     );
     const data = await response.json();
     const parties = data.data;
@@ -51,7 +51,7 @@ function createPartyElement(party) {
 async function addParty(newParty) {
   try {
     const response = await fetch(
-      "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/events",
+      "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2310-FSA-ET-WEB-PT-SF/events",
       {
         method: "POST",
         headers: {
@@ -78,7 +78,7 @@ async function addParty(newParty) {
 async function deleteParty(partyId) {
   try {
     const response = await fetch(
-      `https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/events/${partyId}`,
+      `https://fsa-crud-2aa9294fe819.herokuapp.com/api/2310-FSA-ET-WEB-PT-SF/events/${partyId}`,
       {
         method: "DELETE",
       }
